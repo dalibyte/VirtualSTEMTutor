@@ -14,7 +14,6 @@ Ensure Python 3.8 or later is installed. Then install the required libraries usi
 
 4. **Set up environment variables for NVIDIA API keys:**  
 Ensure you have your NVIDIA API keys set up as environment variables. You might need to sign up for access to NVIDIA's models and APIs. For example, you can add the following lines to your `~/.bashrc` or `~/.bash_profile`:`export NVIDIA_API_KEY='your_api_key_here' `
-
 Then, source the file to apply the changes:  
 `source ~/.bashrc`
 
