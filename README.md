@@ -10,9 +10,9 @@ git clone https://github.com/dalibyte/VirtualSTEMTutor.git
 
 2. **Install required libraries:**
 Ensure Python 3.8 or later is installed. Then install the required libraries using pip:
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
-3. **Set up environment variables for NVIDIA API keys:**
+4. **Set up environment variables for NVIDIA API keys:**
 Ensure you have your NVIDIA API keys set up as environment variables. You might need to sign up for access to NVIDIA's models and APIs.
 
 For example, you can add the following lines to your `~/.bashrc` or `~/.bash_profile`:
@@ -51,32 +51,3 @@ npm start
 - **NVIDIA NeMo:** For model fine-tuning.
 - **TensorRT-LLM:** For optimization.
 - **Web Interface:** Built using React.js and Node.js.
-
-**Directory Structure**
-VirtualSTEMTutor/
-│
-├── data/
-│ ├── textbooks.txt
-│ ├── lecture_notes.txt
-│
-├── models/
-│ ├── fine_tuned_qa_model/
-│ ├── fine_tuned_summarization_model/
-│
-├── web/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── QnAComponent.js
-│ │ │ ├── SummarizeComponent.js
-│ │ │ ├── GenerateProblemsComponent.js
-│ │ ├── App.js
-│ │ ├── index.js
-│ ├── package.json
-│
-├── scripts/
-│ ├── setup.py
-│
-├── main.py
-├── requirements.txt
-├── README.md
