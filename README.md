@@ -30,8 +30,8 @@ Launch the Flask server to handle the backend of the Virtual STEM Tutor:
 
 8. **Set up the web interface:**  
 Navigate to the `web` directory and install the required dependencies:  
-`cd web
-npm install`
+`cd web`  
+`npm install`
 
 9. **Start the web interface:**  
 Run the following command to start the React web interface:  
