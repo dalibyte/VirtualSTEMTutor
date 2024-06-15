@@ -35,7 +35,7 @@ Navigate to the `web` directory and install the required dependencies:
 
 9. **Start the web interface:**  
 Run the following command to start the React web interface:  
-npm start
+`npm start`
 
 ## Usage Guidelines
 
