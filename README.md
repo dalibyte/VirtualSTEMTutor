@@ -9,34 +9,63 @@ The Virtual STEM Tutor leverages NVIDIA’s Large Language Models (LLM) and Lang
    ```sh
    git clone https://github.com/dalibyte/VirtualSTEMTutor.git
    cd VirtualSTEMTutor
-2. **Install required libraries:**
-Ensure Python 3.8 or later is installed. Then install the required libraries using pip:
+
+    Install required libraries:
+    Ensure Python 3.8 or later is installed. Then install the required libraries using pip:
+
+    sh
+
 pip install -r requirements.txt
-3. **Set up environment variables for NVIDIA API keys:**
+
+Set up environment variables for NVIDIA API keys:
 Ensure you have your NVIDIA API keys set up as environment variables. You might need to sign up for access to NVIDIA's models and APIs.
 
 For example, you can add the following lines to your ~/.bashrc or ~/.bash_profile:
+
+sh
+
 export NVIDIA_API_KEY='your_api_key_here'
+
 Then, source the file to apply the changes:
+
+sh
+
 source ~/.bashrc
-4. **Prepare Dataset:**
+
+Prepare Dataset:
 Add your textbook and lecture notes content to the data/textbooks.txt and data/lecture_notes.txt files. Ensure the content is formatted appropriately for the models to use.
-5. **Run the setup script to fine-tune the models:**
+
+Run the setup script to fine-tune the models:
+
+sh
+
 python scripts/setup.py
-6. **Start the server:**
+
+Start the server:
 Launch the Flask server to handle the backend of the Virtual STEM Tutor:
+
+sh
+
 python main.py
-7. **Set up the web interface:**
+
+Set up the web interface:
 Navigate to the web directory and install the required dependencies:
+
+sh
+
 cd web
 npm install
-8. **Start the web interface:**
+
+Start the web interface:
 Run the following command to start the React web interface:
-npm start
+
+sh
+
+    npm start
 
 Usage Guidelines
 
-    Access the web interface at 'http://localhost:3000'.
+    Access the web interface at http://localhost:3000.
     Ask questions, summarize concepts, and generate practice problems through the interface.
 
 Technical Specifications
@@ -47,7 +76,9 @@ Technical Specifications
     TensorRT-LLM: For optimization.
     Web Interface: Built using React.js and Node.js.
 
-**Directory Structure**
+Directory Structure
+
+kotlin
 
 VirtualSTEMTutor/
 │
