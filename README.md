@@ -7,7 +7,6 @@ The Virtual STEM Tutor leverages NVIDIA’s Large Language Models (LLM) and Lang
 
 1. **Clone the repository:**
 git clone https://github.com/dalibyte/VirtualSTEMTutor.git
-cd VirtualSTEMTutor
 
 2. **Install required libraries:**
 Ensure Python 3.8 or later is installed. Then install the required libraries using pip:
