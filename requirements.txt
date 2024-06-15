@@ -1,0 +1,7 @@
+langchain
+nemo_toolkit
+torch
+tensorrt
+transformers
+flask
+flask-cors
