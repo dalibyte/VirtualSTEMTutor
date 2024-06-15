@@ -5,37 +5,39 @@ The Virtual STEM Tutor leverages NVIDIA’s Large Language Models (LLM) and Lang
 
 ## Setup Instructions
 
-1. **Clone the repository:**
+1. **Clone the repository:**  
 git clone https://github.com/dalibyte/VirtualSTEMTutor.git
 
-2. **Install required libraries:**
-Ensure Python 3.8 or later is installed. Then install the required libraries using pip: pip install -r requirements.txt
+2. **Install required libraries:**  
+Ensure Python 3.8 or later is installed. Then install the required libraries using pip:  
+pip install -r requirements.txt
 
-4. **Set up environment variables for NVIDIA API keys:**
+4. **Set up environment variables for NVIDIA API keys:**  
 Ensure you have your NVIDIA API keys set up as environment variables. You might need to sign up for access to NVIDIA's models and APIs.
 
-For example, you can add the following lines to your `~/.bashrc` or `~/.bash_profile`:
+For example, you can add the following lines to your `~/.bashrc` or `~/.bash_profile`:  
 export NVIDIA_API_KEY='your_api_key_here'
-Then, source the file to apply the changes:
+
+Then, source the file to apply the changes:  
 source ~/.bashrc
 
 4. **Prepare Dataset:**
 Add your textbook and lecture notes content to the `data/textbooks.txt` and `data/lecture_notes.txt` files. Ensure the content is formatted appropriately for the models to use.
 
-5. **Run the setup script to fine-tune the models:**
+5. **Run the setup script to fine-tune the models:**  
 python scripts/setup.py
 
 6. **Start the server:**
-Launch the Flask server to handle the backend of the Virtual STEM Tutor:
+Launch the Flask server to handle the backend of the Virtual STEM Tutor:  
 python main.py
 
 7. **Set up the web interface:**
-Navigate to the `web` directory and install the required dependencies:
-cd web
+Navigate to the `web` directory and install the required dependencies:  
+cd web  
 npm install
 
 8. **Start the web interface:**
-Run the following command to start the React web interface:
+Run the following command to start the React web interface:  
 npm start
 
 ## Usage Guidelines
