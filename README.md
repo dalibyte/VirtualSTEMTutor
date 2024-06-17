@@ -19,7 +19,7 @@ Then, source the file to apply the changes:
 `source ~/.bashrc`
 
 6. **Prepare Dataset:**  
-Add your textbook and lecture notes content to the `data/textbooks.txt` and `data/lecture_notes.txt` files. Ensure the content is formatted appropriately for the models to use.
+Add your textbook and lecture notes content to the `data/textbooks.txt` and `data/lecture_notes.txt` files. Ensure the content is formatted appropriately for the models to use if nothing is added it will use the default information files.
 
 7. **Run the setup script to fine-tune the models:**  
 `python scripts/setup.py`
