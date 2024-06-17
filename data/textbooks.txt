@@ -1,0 +1,31 @@
+Physics Textbook Excerpts:
+
+Chapter 1: Introduction to Physics
+- Physics is the study of matter, energy, and the interactions between them.
+- Important concepts include force, energy, mass, and charge.
+
+Chapter 2: Newton's Laws of Motion
+- Newton's First Law: An object in motion stays in motion unless acted upon by an external force.
+- Newton's Second Law: Force equals mass times acceleration (F = ma).
+- Newton's Third Law: For every action, there is an equal and opposite reaction.
+
+Chapter 3: Work and Energy
+- Work is done when a force applied to an object moves that object.
+- Energy is the ability to do work. The two main types of energy are kinetic and potential energy.
+- The law of conservation of energy states that energy cannot be created or destroyed, only transformed from one form to another.
+
+Mathematics Textbook Excerpts:
+
+Chapter 1: Algebraic Expressions
+- An algebraic expression is a combination of variables, numbers, and at least one arithmetic operation.
+- Examples: 2x + 3, 5y - 7, 4a + 2b.
+
+Chapter 2: Quadratic Equations
+- A quadratic equation is an equation of the form ax^2 + bx + c = 0.
+- The solutions can be found using the quadratic formula: x = (-b ± √(b²-4ac)) / 2a.
+- Quadratic equations can have two, one, or no real solutions.
+
+Chapter 3: Calculus Basics
+- Calculus is the mathematical study of continuous change.
+- Differential calculus focuses on the concept of a derivative, representing the rate of change.
+- Integral calculus deals with the concept of an integral, representing the accumulation of quantities.
