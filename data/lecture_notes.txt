@@ -1,0 +1,33 @@
+Physics Lecture Notes:
+
+Lecture 1: Basics of Mechanics
+- Mechanics is the branch of physics dealing with the motion of objects.
+- Key concepts include velocity, acceleration, force, and mass.
+- Newton's Laws of Motion are fundamental to understanding mechanics.
+
+Lecture 2: Electromagnetism
+- Electromagnetism is the study of electric and magnetic fields and their interactions.
+- Coulomb's Law describes the force between two charged objects.
+- Faraday's Law of Induction states that a changing magnetic field can induce an electric current.
+
+Lecture 3: Thermodynamics
+- Thermodynamics is the study of heat and energy transfer.
+- The first law of thermodynamics is the law of energy conservation.
+- The second law states that the entropy of an isolated system always increases.
+
+Mathematics Lecture Notes:
+
+Lecture 1: Functions and Graphs
+- A function is a relation between a set of inputs and a set of permissible outputs.
+- The graph of a function is a visual representation of the relation between variables.
+- Common functions include linear, quadratic, and exponential functions.
+
+Lecture 2: Limits and Continuity
+- A limit is the value that a function approaches as the input approaches some value.
+- Continuity means that small changes in the input result in small changes in the output.
+- Limits are fundamental to the study of calculus.
+
+Lecture 3: Differentiation
+- Differentiation is the process of finding the derivative of a function.
+- The derivative represents the rate of change of a function with respect to a variable.
+- Common rules of differentiation include the power rule, product rule, and chain rule.
